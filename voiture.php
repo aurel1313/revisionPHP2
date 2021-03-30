@@ -18,6 +18,8 @@
         }
         public function afficher(){
             echo $this->marque;
+            echo $this->couleur;
+            echo $this->immatriculation;
         }
         
     }
